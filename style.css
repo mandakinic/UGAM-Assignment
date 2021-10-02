@@ -1,0 +1,133 @@
+.displaywin {
+  display: block;
+}
+.displaymob {
+  display: none;
+}
+.background-banner {
+			background-image: url(images/BGLayer.png) ;
+			background-position: top center;
+			background-repeat:  no-repeat;
+			background-size:  cover;
+      background-color: #a7bccf;
+      height: 140vh;
+      border-bottom: 7px solid #6fccde;
+}
+.img1 {
+  padding: 33.5px 166.5px 0px;
+  width: 100%;
+}
+.img2 {
+    height: 190px;
+    position: absolute;
+    top: -170px;
+    left: 190px;
+}
+.img3 {
+    height: 90px;
+    position: absolute;
+    top: -60px;
+    left: 5%;
+}
+.img4 {
+  padding-top: 20px;
+  width: 100%;
+}
+.card1 {
+  background-image: url(images/Backgroundcenter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 320px;
+  padding: 20px 20px;
+  margin: 24.5px -90px;
+}
+.card2 {
+    background-image: url(images/snacksBannerLogo.png);
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    padding: 20px 205px 0 222px;
+    margin: 24.5px -90px;
+    background-repeat: no-repeat;
+}
+.card2-text {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1;
+  color: #6fccde;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+  padding-left: 18px;
+  font-family:"Industry W05 Bold";
+}
+.card2-para {
+  color: #ffffffb3;
+  padding: 0px 20px;
+  font-size: 12px;
+  margin-top: -18px;
+  font-family:"Normative W01 Regular";
+}
+.card-text {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 0.94;
+  color: #6fccde;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0px 85px;
+  font-family:"Industry W05 Bold";
+}
+.journeyform {
+    padding: 0px 88px 0px;
+    color: #ffffffb3;
+    font-size: 12px;
+    margin-top: -15px;
+    font-weight: 100;
+    font-family:"Normative W01 Regular";
+}
+#fname {
+  padding: 5px;
+  width: 80%;
+  margin: 10% 0% 10px;
+}
+.btn-warning {
+  padding: 8px 15px 7px 15px;
+  border-radius: 2.5px;
+  background-color: #fec23e;
+  margin: 15px 0px 20px;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  font-family:"Industry W05 Bold";
+}
+.footer {
+  height: 500px;
+}
+.footer-text {
+  color: #6fccde;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  padding-top: 50px;
+  font-family:"Industry W05 Bold";
+}
+.footer-text1{
+  color: #ffffffb3;
+  font-size: 12px;
+  font-weight: 300;
+  font-family:"Normative W01 Regular";
+}
+.footer-para {
+  color: #ffffffb3;
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 100;
+  padding: 0px 45px 0px 45px;
+  font-family: "Normative W01 Regular";
+}
+.footer img {
+  padding:70px 0px 30px;
+}

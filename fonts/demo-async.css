@@ -1,0 +1,16 @@
+    @font-face{
+        font-family:"Industry W05 Bold";
+        src:url("Fonts/9af0d4f1-307f-4a22-b5a2-c55bf0d9ec8b.woff2") format("woff2"),url("Fonts/8a08b405-1b57-425c-9bc2-f90381b404b9.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Normative W01 Regular";
+        src:url("Fonts/8dcd4d2c-97e7-4b6a-acd3-8e95ebe05d5c.woff2") format("woff2"),url("Fonts/956fe778-246a-47d9-b148-4e983556fb3c.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Normative W01 Medium";
+        src:url("Fonts/5ec7316a-9a46-4ed9-953e-703238ff1087.woff2") format("woff2"),url("Fonts/0c63116f-e23f-4b0a-8fd2-054456c9deb3.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Normative W01 Bold";
+        src:url("Fonts/e923893f-121b-4553-b569-7c74b45de7aa.woff2") format("woff2"),url("Fonts/eeb988df-8a91-4ad2-bc81-43dfc56749ea.woff") format("woff");
+    }

@@ -1,0 +1,112 @@
+@media only screen and (max-width: 600px) {
+  .displaywin {
+    display: none;
+  }
+  .displaymob {
+      display: block!important;
+  }
+
+  .background-banner {
+  			background-image: url(images/mobileBGLayer.jpg) ;
+  			background-position: top center;
+  			background-repeat:  no-repeat;
+  			background-size:  cover;
+        background-color: #a7bccf;
+  }
+  .img1 {
+      padding: 33.5px 0px 0px;
+      width: 60%;
+  }
+  .card1 {
+      width: 100%;
+      height: 300px;
+      padding: 0;
+      margin: 15px 0px -80px;
+  }
+  .card-text {
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 30px 65px 0px;
+}
+
+.journeyform {
+  padding: 0px 65px 0px;
+  font-size: 13px;
+  margin-top: -6px;
+  text-align: left;
+}
+#fname {
+  padding: 5.5px;
+  width: 100%;
+  margin-top: 15px;
+}
+.btn-warning {
+  padding: 8px 15px 7px 15px;
+  margin: 2px 0px 20px;
+  width: 100%;
+  font-size: 15px;
+}
+.card2 {
+  width: 95%;
+  height: 300px;
+  text-align: left;
+  padding: 1px 10px 0 140px;
+  margin: 0;
+}
+.card2-text {
+  font-size: 17px;
+  line-height: 1;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 12px 18px;
+}
+.card2-para {
+  padding: 0px 18px;
+  font-size: 12px;
+  line-height: 13px;
+  margin-top: -22px;
+}
+.img4 {
+  padding-top: 0px;
+  width: 96.3%;
+  position: absolute;
+  left: 11.8px;
+  bottom: -12%;
+}
+.mobile-view {
+  list-style-type: none;
+  display: inline-flex;
+}
+.img2 {
+  height: 150px;
+  position: relative;
+  top: -145px;
+  left: 5px;
+}
+.img3 {
+  height: 75px;
+  position: relative;
+  top: -60px;
+  left: 15%;
+}
+.footer {
+  height: 100vh;
+  padding: 0px 20px;
+  text-align: center;
+}
+.footer-text {
+  color: #6fccde;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  padding: 0px 40px 0px 40px;
+  margin-top: -30%;
+}
+
+.footer-para {
+  font-size: 10px;
+  line-height: 13px;
+  padding: 0px 45px 0px 45px;
+}
+}

@@ -1,0 +1,88 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@font-face{
+    font-family:"Industry W05 Bold";
+    src:url("fonts/Fonts/9af0d4f1-307f-4a22-b5a2-c55bf0d9ec8b.woff2") format("woff2"),url("fonts/Fonts/8a08b405-1b57-425c-9bc2-f90381b404b9.woff") format("woff");
+}
+@font-face{
+    font-family:"Normative W01 Regular";
+    src:url("fonts/Fonts/8dcd4d2c-97e7-4b6a-acd3-8e95ebe05d5c.woff2") format("woff2"),url("fonts/Fonts/956fe778-246a-47d9-b148-4e983556fb3c.woff") format("woff");
+}
+@font-face{
+    font-family:"Normative W01 Medium";
+    src:url("fonts/Fonts/5ec7316a-9a46-4ed9-953e-703238ff1087.woff2") format("woff2"),url("fonts/Fonts/0c63116f-e23f-4b0a-8fd2-054456c9deb3.woff") format("woff");
+}
+@font-face{
+    font-family:"Normative W01 Bold";
+    src:url("fonts/Fonts/e923893f-121b-4553-b569-7c74b45de7aa.woff2") format("woff2"),url("fonts/Fonts/eeb988df-8a91-4ad2-bc81-43dfc56749ea.woff") format("woff");
+}
+
+.col-md-2 {width: 16.66%;}
+.col-md-1 {width: 8.33%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+
+body {
+	margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    overflow-x: hidden;
+}
+.container {
+    min-width: 992px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.w-100 {
+    width: 100%;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.bg-dark {
+    background-color: #000;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+strong {
+    color:#fff;
+}
+
