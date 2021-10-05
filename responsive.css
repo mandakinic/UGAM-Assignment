@@ -1,4 +1,37 @@
-@media only screen and (max-width: 600px) {
+@media (min-width: 1400px) and (max-width : 1920px){
+    .background-banner { 
+      height: 120vh;
+    }
+    .card1 {
+      background-image: url(images/Backgroundcenter.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      height: 370px;
+      padding: 20px 60px 0px 10px;
+      margin: 24.5px -45px;
+  }
+  .card-text {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 0.94;
+      color: #6fccde;
+      text-align: left;
+      text-transform: uppercase;
+      padding: 20px 85px;
+      font-family: "Industry W05 Bold";
+  }
+  .card2 {
+      background-image: url(images/snacksBannerLogo.png);
+      background-size: auto;
+      width: 100%;
+      height: 350px;
+      padding: 50px 215px 0 260px;
+      margin: 24.5px -75px;
+      background-repeat: no-repeat;
+  }
+}
+ @media only screen and (min-width:768px) and (max-width: 1024px) {
   .displaywin {
     display: none;
   }
@@ -12,6 +45,125 @@
   			background-repeat:  no-repeat;
   			background-size:  cover;
         background-color: #a7bccf;
+  }
+  .img1 {
+      padding: 33.5px 0px 0px;
+      width: 60%;
+  }
+  .card1 {
+    width: 90%;
+    height: 380px;
+    padding: 50px 50px 0px 40px;
+    margin: 15px 0px;
+    background-size: cover;
+    display: inline-block;
+  }
+  .card-text {
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 30px 65px 0px;
+}
+
+.journeyform {
+  padding: 0px 65px 0px;
+  font-size: 13px;
+  margin-top: -6px;
+  text-align: left;
+}
+#fname {
+  padding: 5.5px;
+  width: 100%;
+  margin-top: 15px;
+}
+.btn-warning {
+  padding: 8px 15px 7px 15px;
+  margin: 10px 0px 20px;
+  width: 100%;
+  font-size: 15px;
+}
+.card2 {
+  width: 84.5%;
+  height: 380px;
+  padding: 40px 70px 0px 280px;
+  margin: 0 15px;
+  background-size: contain;
+  display: block;
+  text-align: left;
+}
+.card2-text {
+  font-size: 17px;
+  line-height: 1;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 12px 18px;
+}
+.card2-para {
+  padding: 0px 18px;
+  font-size: 12px;
+  line-height: 13px;
+  margin-top: -22px;
+}
+.img4 {
+  padding-top: 0px;
+  width: 96.1%;
+  position: absolute;
+  left: 30px;
+  bottom: -25%;
+}
+.mobile-view {
+  list-style-type: none;
+  display: inline-flex;
+}
+.img2 {
+  height: 150px;
+  position: relative;
+  top: -145px;
+  left: 5px;
+}
+.img3 {
+  height: 75px;
+  position: relative;
+  top: -60px;
+  left: 115%;
+}
+.footer {
+  height: 50vh;
+  padding: 0px 20px;
+  text-align: center;
+  margin-top: -10%;
+}
+.footer-text {
+  color: #6fccde;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  padding: 0px 40px 0px 40px;
+  margin-top: auto;
+}
+
+.footer-para {
+  font-size: 10px;
+  line-height: 13px;
+  padding: 0px 45px 0px 45px;
+}
+} 
+
+@media only screen and (max-width: 767px) {
+  .displaywin {
+    display: none;
+  }
+  .displaymob {
+      display: block!important;
+  }
+
+  .background-banner {
+  			background-image: url(images/mobileBGLayer.jpg) ;
+  			background-position: top center;
+  			background-repeat:  no-repeat;
+  			background-size:  cover;
+        background-color: #a7bccf;
+        height: 135vh;
   }
   .img1 {
       padding: 33.5px 0px 0px;
@@ -51,8 +203,8 @@
   width: 95%;
   height: 300px;
   text-align: left;
-  padding: 1px 10px 0 140px;
-  margin: 0;
+  padding: 1px 10px 0 160px;
+  margin: 20px 2px auto;
 }
 .card2-text {
   font-size: 17px;
@@ -69,20 +221,20 @@
 }
 .img4 {
   padding-top: 0px;
-  width: 96.3%;
+  width: 96%;
   position: absolute;
-  left: 11.8px;
-  bottom: -12%;
+  left: 13px;
+  bottom: -15%;
 }
 .mobile-view {
   list-style-type: none;
   display: inline-flex;
 }
 .img2 {
-  height: 150px;
+  height: 120px;
   position: relative;
-  top: -145px;
-  left: 5px;
+  top: -125px;
+  left: 10px;
 }
 .img3 {
   height: 75px;
@@ -109,4 +261,14 @@
   line-height: 13px;
   padding: 0px 45px 0px 45px;
 }
+@-moz-document url-prefix() {
+  .background-banner {
+      height: 110vh!important;
+  }
+  .img4 {
+    left: 14px!important;
+    bottom: 5%!important;
+  }
 }
+}
+
